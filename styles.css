@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+main{   
+    background-color: rgb(58, 127, 218);
+    color: black;
+    }
+
+header, footer{
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+}
+
+header nav a{
+    border: 0.1em solid black;
+    background-color: white;
+    padding: 1em;
+    margin:-0.2em;
+}
+
+img{
+    width: 20%;
+}
+
+footer{
+    text-align: center;
+}
+
+.nosotros{
+    display: flex;
+    justify-content: space-around;
+}
+
+.personal{
+    display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+.sedes{
+    display: flex;
+    justify-content: space-around;
+}
