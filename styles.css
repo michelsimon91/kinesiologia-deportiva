@@ -55,3 +55,16 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
+.tratamientos h1, h4{
+    text-align: center;
+}
+
+.deportiva,.mep, .rpg{
+    display: flex;
+}
+
+.osteopatia, .taping,.rehab{
+    display: flex;
+    flex-direction: row-reverse;
+}
