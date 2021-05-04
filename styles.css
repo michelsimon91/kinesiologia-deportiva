@@ -18,15 +18,19 @@ header{
 header nav a{
     border: 0.1em solid black;
     background-color: white;
-    padding: 1em;
-    margin:-0.2em;
+    padding: 1vw;   
+    /*margin:-0.2em;*/
+}
+
+.secciones{
+    display: flex;
+    align-self:flex-start;
 }
 
 header nav a:hover{
     border: 0.1em solid black;
     background-color: blue;
-    padding: 1em;
-    margin:-0.2em;
+    padding: 1vw;
     color: white;
     transition-property: all;
     transition-duration: 10ms;
