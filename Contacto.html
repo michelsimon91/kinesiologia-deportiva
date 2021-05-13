@@ -21,33 +21,34 @@
     </header>
 <main>
 
-    Contactenos
+    <h1>Contactenos</h1>
     <form action="show_data.html" target="_blank">
-        Nombre: <input type="text" name="Nombre">
+        Nombre:<br> <input type="text" name="Nombre" required>
         <br>
-        Apellido: <input type="text" name="Apellido">
+        Apellido:<br> <input type="text" name="Apellido" required>
         <br>
-        Email: <input type="email" name="email">
+        Email:<br> <input type="email" name="email" required>
         <br>
-        Celular: <input type="number" name="Celular">
+        Celular:<br> <input type="number" name="Celular" required>
         <br>
-        Obra Social: <select name="obra_social">
-            <option value="osde">Osde</option>
+        Obra Social:<br> <select name="obra_social">
+    <option value="particular">Particular</option>
+    <option value="osde">Osde</option>
     <option value="smg">Swiss Medical</option>
     <option value="colegioescribanos">Colegio de Escribanos</option>
     <option value="otra">Otra</option>
 </select>
 <br>
-Motivo de consulta: <input type="checkbox" name="patologia" value="desgarro">Desgarro
+Motivo de consulta:<br> <input type="checkbox" name="patologia" value="desgarro">Desgarro
 <input type="checkbox" name="patologia" value="fractura">Fractura
-<input type="checkbox" name="patologia" value="esguince">Esguince
+<input type="checkbox" name="patologia" value="esguince">Esguince<br>
 <input type="checkbox" name="patologia" value="contractura">Contractura
 <input type="checkbox" name="patologia" value="tendinitis">Tendinitis
 <input type="checkbox" name="patologia" value="otros">Otros
-<br>
+<br><br>
 <textarea name="comentario" rows="10" cols="40" placeholder="Deja tu consulta o en caso de querer un turno indica tu disponibilidad horaria"></textarea>
 <br>
-<input type="submit" value="Enviar">
+<input type="submit" value="Enviar"><input type="reset">
 </form>
 </main>
 <footer>

@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
 }
 
 main{   
@@ -44,6 +46,12 @@ footer{
     text-align: center;
 }
 
+.carousel-inner img {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+}
+
 .nosotros{
     display: flex;
     justify-content: space-around;
@@ -72,3 +80,52 @@ footer{
     display: flex;
     flex-direction: row-reverse;
 }
+
+
+form{
+    margin-left: 1em;
+}
+
+/*Para celulares*/
+@media screen and (max-width: 640px) {
+     
+header img{
+    display: none;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+
+.nosotros{
+    flex-direction: column;
+}
+
+.personal{
+    display: grid;
+  grid-template-columns: auto auto;
+
+}
+
+.personal span{
+    margin-top: 1em;
+}
+
+.tratamientos span{
+    display: block;
+}
+
+.tratamientos img{
+    width: 50%;
+    margin-left: 20vw;
+    margin-right: auto;
+}
+
+.sedes{
+    flex-direction: column;
+}
+}
+/*Para Tablets*/
+@media screen and (min-width: 640px) and (max-width: 1280px) {}
